@@ -17,7 +17,7 @@
                             <h5 class="card-title">{{ $movie->title }}</h5>
                             <h6 class="card-subtitle mb-2 text-muted">{{ $movie->original_title }}</h6>
                             <ul class="list-group list-group-flush mb-3">
-                                <li class="list-group-item">Nazionalità: {{ $movie->nationality }}</li>
+                                <li class="list-group-item text-capitalize">Nazionalità: {{ $movie->nationality }}</li>
                                 <li class="list-group-item">Data uscita: {{ $movie->date }}</li>
                                 <li class="list-group-item">Voto degli utenti: {{ $movie->vote }}</li>
                             </ul>
